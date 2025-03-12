@@ -1,0 +1,10 @@
+
+path: C:\Users\rupoo\PycharmProjects\train-yolov8\train-yolov8\local_env\data # dataset root dir
+train: data/images/train # train images (relative to 'path')
+val: data/images/train # val images (relative to 'path')
+
+# Classes
+names:
+  0: human
+  1: landscape
+  2: house
